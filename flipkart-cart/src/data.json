@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "https://rukminim1.flixcart.com/image/800/960/k5zn9u80/t-shirt/3/z/m/3xl-askporgff17647-allen-solly-original-imafk8s5wv5mcfm9.jpeg?q=50",
+    "brand": "Fast Colors",
+    "name": "Solid men polo shirt",
+    "price": 399,
+    "size": "M"
+  },
+  {
+    "id": 2,
+    "img": "https://rukminim1.flixcart.com/image/800/960/km9ht3k0/t-shirt/t/q/3/m-pckposgfk15267-peter-england-original-imagf78zcr2rfwxz.jpeg?q=50",
+    "brand": "Slow Colors",
+    "name": "Solid men t-shirt",
+    "price": 499,
+    "size": "L"
+  },
+  {
+    "id": 3,
+    "img": "https://rukminim1.flixcart.com/image/800/960/k0h12fk0/t-shirt/v/t/v/m-askporgfe35420-allen-solly-original-imafk8s5wnqwygff.jpeg?q=50",
+    "brand": "Allen Solly",
+    "name": "Dark blue mens shirt",
+    "price": 999,
+    "size": "S"
+  },
+  {
+    "id": 4,
+    "img": "https://rukminim1.flixcart.com/image/800/960/knrsjgw0/t-shirt/r/4/a/m-pckwssgfi14166-peter-england-original-imag2djghsfprd44.jpeg?q=50",
+    "brand": "Peter England",
+    "name": "Floral mens polo shirt",
+    "price": 699,
+    "size": "M"
+  },
+  {
+    "id": 5,
+    "img": "https://rukminim1.flixcart.com/image/800/960/knrsjgw0/t-shirt/u/h/7/m-pckwssgf128130-peter-england-original-imag2detkfgzvkwn.jpeg?q=50",
+    "brand": "Allen Solly",
+    "name": "Color Block Men Polo Neck Multicolor T-Shirt",
+    "price": 649,
+    "size": "XL"
+  },
+  {
+    "id": 6,
+    "img": "https://rukminim1.flixcart.com/image/800/960/kmax8y80/t-shirt/9/b/n/m-pckpssgfs55083-peter-england-original-imagf8d2zpwpgmg8.jpeg?q=50",
+    "brand": "Peter England",
+    "name": "Printed Men Polo Neck Maroon T-Shirt",
+    "price": 549,
+    "size": "L"
+  }
+]
