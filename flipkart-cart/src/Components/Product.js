@@ -37,7 +37,6 @@ const Product = ({ items, setCartNum, cartNum }) => {
                       data.price,
                       data.size
                     );
-                    setCartNum(cartNum + 1);
                   }}
                   className="add-cart-btn"
                 >

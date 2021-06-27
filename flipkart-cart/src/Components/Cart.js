@@ -4,6 +4,7 @@ import { db } from "../config";
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
+  const [count, setCount] = useState([]);
 
   useEffect(() => {
     getCart();
@@ -25,25 +26,45 @@ const Cart = () => {
         );
       });
   };
+
   console.log(cart);
 
   return (
-    <div>
+    <div className="cart-page">
       <h2>Cart</h2>
-      <div className="product-list">
+      <div className="cart-list">
         {cart.map((data) => {
           return (
-            <div className="product" key={data.id}>
-              <img className="product-img" src={data.img} alt={data.name} />
-              <div className="product-info">
-                <p className="brand">{data.brand}</p>
-                <p className="name">{data.name}</p>
-                <p className="price">₹{data.price}</p>
-                <p className="size">Size : {data.size}</p>
+            <div className="cart" key={data.id}>
+              <hr />
+              <div className="cart-info">
+                <img className="cart-img" src={data.img} alt={data.name} />
+                <div className="cart-text">
+                  {" "}
+                  <p className="brand">{data.brand}</p>
+                  <p className="cart-name">{data.name}</p>
+                  <p className="price">₹{data.price}</p>
+                  <p className="size">Size : {data.size}</p>
+                  <button
+                    onClick={() => {
+                      db.collection("cart").doc(data.id).delete();
+                    }}
+                  >
+                    Remove
+                  </button>
+                  <button>-</button>x<button>+</button>
+                </div>
               </div>
             </div>
           );
         })}
+      </div>
+
+      {/* total */}
+
+      <div>
+        <h2>Total</h2>
+        <p>{count}</p>
       </div>
     </div>
   );

@@ -73,3 +73,52 @@
 .filter-content {
   display: flex;
 }
+
+/* cart-page */
+
+.cart-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 60%;
+}
+
+.cart {
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 2px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.cart img {
+  max-width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  margin-left: 0;
+  align-items: center;
+}
+
+.cart-brand {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.cart-info {
+  display: flex;
+
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  max-height: 100%;
+  background-color: white;
+  color: black;
+}
+
+.cart-page {
+  display: flex;
+}
